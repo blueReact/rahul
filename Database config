@@ -1,0 +1,18 @@
+<?php
+  $con_res = mysql_connect("localhost","root","");
+  
+  if(!$con_res)
+  {
+      die("Unable to locate MySQL Server");
+  }
+  
+  
+  $select_res = mysql_select_db("adhome");
+  
+  if(!$select_res)
+  {
+      die("Unable to find the database");
+  }
+  
+  
+?>
