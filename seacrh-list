@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style type="text/css">
+
+
+</style>
+
+<script type="text/javascript">
+
+
+
+</script>
+
+<style type="text/css">
+
+.search-sidebar {
+float:left;
+width:200px;
+border-right:1px solid #ddd;
+
+}
+
+.search-main-results {
+float:left;
+margin-left:20px;
+width:700px;
+
+}
+
+.search-result-set {
+float:left;
+width:200px;
+border:1px solid #ddd;
+padding-bottom:20px;
+padding:5px;
+margin:10px;
+font-size:12px;
+
+}
+
+.search-result-detail {
+padding-top:10px;
+}
+
+.search-result-tab-name {
+float:left;
+width:100px;
+}
+
+.search-result-tab-info {
+float:left;
+width:100px;
+
+}
+
+.search-result-tab-title a {
+font-size:14px;
+font-weight:bolder;
+}
+
+.search-sidebar {
+font-size:13px;
+
+}
+
+.search-sidebar ul {
+list-style-type:none;
+margin:0px auto;
+padding:0px;
+
+}
+
+.search-filter-box {
+
+margin-top:20px;
+
+}
+
+.search-result-tab-status1 {
+margin-top:10px;
+font-size:16px;
+font-weight:bolder;
+color:green;
+}
+
+
+.search-result-tab-status2 {
+margin-top:10px;
+font-size:14px;
+font-weight:bolder;
+color:#b00;
+} 
+
+.search-result-tab-status1 ul {
+
+list-style-type:none;
+margin:0px auto;
+padding:0px;
+float:left;
+
+}
+
+.search-result-tab-status1 ul li {
+float:left;
+}
+
+.search-result-tab-status1 ul li a{
+color:#048FC2;
+text-decoration:none;
+border-right:1px solid #ddd;
+font-size:13px;
+margin-right:5px;
+padding-right:4px;
+font-weight:normal;
+}
+
+.search-result-tab-status1 ul li a:hover{
+color:#000;
+text-decoration:underline;
+}
+
+.result-view-links {
+margin-bottom:20px;
+border-bottom:2px solid #ddd;
+padding-bottom:5px;
+}
+
+
+.result-view-links a{
+font-size:14px;
+font-weight:bold;
+
+}
+
+.result-view-links a.active{
+color:#000;
+font-size:14px;
+font-weight:bold;
+
+}
+.search-list-result {
+
+margin-bottom:20px;
+border-bottom:1px solid #ddd;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.search-list-result-img {
+float:left;
+
+}
+.search-list-result-details {
+float:left;
+margin-left:25px;
+
+} 
+
+.list-result-title a {
+font-size:14px;
+font-weight:bolder;
+}
+
+.search-result-list-tab {
+background-color:#FAFAFA;
+width:220px;
+float:left;
+margin-top:15px;
+border-top:1px solid #ddd;
+border-bottom:1px solid #ddd;
+}
+
+.list-colmn {
+padding-bottom:10px;
+padding-top:10px;
+padding-right:15px;
+font-size:13px;
+height:15px;
+
+
+}
+.result-list-col {
+float:left;
+width:100px;
+padding:5px;
+
+}
+
+.result-list-info {
+float:left;
+}
+
+.img-thumb {
+float:left;
+}
+
+.img-thumb img{
+float:left;
+padding:5px;
+}
+
+.owner-info-tab {
+font-size:13px;
+padding-top:6px;
+}
+
+.owner-info-tab a {
+font-size:13px;
+}
+
+.search-list-result.featured {
+background-color:lightyellow;
+border-top:1px solid #ddd;
+
+}
+</style>
+
+
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="head">
+		
+		<div class="menu-container">	
+		<ul class="menu">			
+			<li><a href="../dashboard.html">Home</a></li>
+			<li><a href="../products/list.html">Search</a></li>
+			<li><a href="../contacts/list.html">My Bookings</a></li>
+
+			
+		</ul>
+		
+		<ul class="menu-right">
+		
+			<li><a href="..users/list.html">FAQ</a></li>
+			<li><a href="..users/list.html">Blog</a></li>
+			<li><a href="..users/list.html">Contact Us</a></li>
+	<li><a href="../settings.html">My Profile</a></li>
+		</ul>
+		
+		<div class="cls"></div>
+		
+		</div>
+
+	
+	
+	</div>
+	
+
+<div class="main-content">
+
+
+	<h2>Buy Hoardings Online</h2>
+
+	
+
+	
+	
+
+	<div class="search-sidebar">
+
+		<div class="search-filter-box">
+			<h5>Show </h5>
+			<ul>
+				<li><input type="checkbox"> All</li>
+				<li><input type="checkbox"> With Images</li>
+				<li><input type="checkbox"> Without Images</li>
+
+			</ul>
+
+
+		</div>	
+
+		<div class="search-filter-box">
+			<h5>By Zipcode</h5>
+			<input type="text" size="6">&nbsp;<input type="submit" value="GO">
+
+
+		</div>	
+
+		<div class="search-filter-box">
+			<h5>By Places</h5>
+			<ul>
+				<li><input type="checkbox"> Aerospace</li>
+				<li><input type="checkbox"> Schools & Colleges</li>
+
+			</ul>
+
+
+		</div>	
+
+		<div class="search-filter-box">
+			<h5>By Status</h5>
+			<ul>
+				<li><input type="checkbox"> All</li>
+				<li><input type="checkbox"> Available</li>
+				<li><input type="checkbox"> Not Avaiable</li>
+
+			</ul>
+
+
+		</div>	
+
+
+		
+
+		<div class="search-filter-box">
+			<h5>By Price</h5>
+			Min <input type="text" size="6">
+			<br/>
+			Max <input type="text" size="6"> Go
+
+
+		</div>	
+
+		<div class="search-filter-box">
+			<h5>By Areas</h5>
+			<ul>
+				<li><input type="checkbox"> Electronic City</li>
+				<li><input type="checkbox"> Rajaji nagar</li>
+
+			</ul>
+
+
+		</div>	
+
+
+	
+
+	</div>
+
+	<div class="search-main-results">
+
+		<div class="result-view-links">
+
+			<div class="go-left">		
+			
+				<a href="add.html">Sort By Price </a> 
+			
+			</div>
+		
+			<div class="go-right">
+				<a href="search-grid.html">Grid View</a> | <a href="search-list.html"  class="active">List View</a>
+			</div>
+		
+		
+			<div class="cls"></div>
+		</div>	
+
+		
+		<div class="search-list-set">
+
+
+			<div class="search-list-result featured">
+				<div class="search-list-result-img">
+					
+
+					<div class="main-image">				
+						<img src="image.jpg" width="200" />
+					</div>
+
+					<div class="img-thumbnails">
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>						
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+
+						<div class="cls"></div>
+					</div>
+
+
+
+
+
+
+				</div>
+
+				<div class="search-list-result-details">
+					<div class="list-result-title"><a href="#">Hoardings at MG Road</a> </div>
+					
+					<div class="search-result-data">
+						
+						<div class="search-result-list-tab">
+							
+							<div class="list-colmn">
+							<div class="result-list-col">City</div>
+							<div class="result-list-info">Bangalore</div>
+							<div class="cls"></div>	
+							</div>
+							
+							<div class="list-colmn">
+							<div class="result-list-col">Area</div>
+							<div class="result-list-info">Jaynagar</div>
+							<div class="cls"></div>	
+							</div>
+
+							<div class="list-colmn">
+							<div class="result-list-col">Dimension</div>
+							<div class="result-list-info">50*60</div>
+							<div class="cls"></div>	
+							</div>
+
+						</div>
+
+						<div class="search-result-list-tab">
+							<div class="list-colmn">
+							<div class="result-list-col">Zipcode</div>
+							<div class="result-list-info">560100</div>
+							<div class="cls"></div>	
+							</div>
+							
+							<div class="list-colmn">
+							<div class="result-list-col">Cost</div>
+							<div class="result-list-info">1,20,000rs</div>
+							<div class="cls"></div>	
+							</div>
+
+							<div class="list-colmn">
+							<div class="result-list-col">Status</div>
+							<div class="result-list-info" style="color:green;font-size:14px;font-weight:bolder;">Available</div>
+							<div class="cls"></div>	
+							</div>
+						</div>
+	
+						<div class="cls"></div>	
+
+						<div class="owner-info-tab">
+						Owned By : <a href="#">Sridhar Rao Inc</a>
+						<p/>
+						<div class="search-result-tab-status1">
+				
+				
+				<ul>
+					<li><a href="#">Contact Owner</a></li>
+					<li><a href="#">Add to list</a></li>
+
+				</ul>	
+				<div class="cls"></div>	
+				
+			  
+			</div>	
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="cls"></div>
+			
+			</div>	
+
+
+			<div class="search-list-result">
+				<div class="search-list-result-img">
+					
+
+					<div class="main-image">				
+						<img src="image.jpg" width="200" />
+					</div>
+
+					<div class="img-thumbnails">
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>						
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+						<div class="img-thumb"><img src="image.jpg" width="40" height="40" /></div>
+
+						<div class="cls"></div>
+					</div>
+
+
+
+
+
+
+				</div>
+
+				<div class="search-list-result-details">
+					<div class="list-result-title"><a href="#">Hoardings at MG Road</a> </div>
+					
+					<div class="search-result-data">
+						
+						<div class="search-result-list-tab">
+							
+							<div class="list-colmn">
+							<div class="result-list-col">City</div>
+							<div class="result-list-info">Bangalore</div>
+							<div class="cls"></div>	
+							</div>
+							
+							<div class="list-colmn">
+							<div class="result-list-col">Area</div>
+							<div class="result-list-info">Jaynagar</div>
+							<div class="cls"></div>	
+							</div>
+
+							<div class="list-colmn">
+							<div class="result-list-col">Dimension</div>
+							<div class="result-list-info">50*60</div>
+							<div class="cls"></div>	
+							</div>
+
+						</div>
+
+						<div class="search-result-list-tab">
+							<div class="list-colmn">
+							<div class="result-list-col">Zipcode</div>
+							<div class="result-list-info">560100</div>
+							<div class="cls"></div>	
+							</div>
+							
+							<div class="list-colmn">
+							<div class="result-list-col">Cost</div>
+							<div class="result-list-info">1,20,000rs</div>
+							<div class="cls"></div>	
+							</div>
+
+							<div class="list-colmn">
+							<div class="result-list-col">Status</div>
+							<div class="result-list-info" style="color:green;font-size:14px;font-weight:bolder;">Available</div>
+							<div class="cls"></div>	
+							</div>
+						</div>
+	
+						<div class="cls"></div>	
+
+						<div class="owner-info-tab">
+						Owned By : <a href="#">Sridhar Rao Inc</a>
+						<p/>
+						<div class="search-result-tab-status1">
+				
+				
+				<ul>
+					<li><a href="#">Contact Owner</a></li>
+					<li><a href="#">Add to list</a></li>
+
+				</ul>	
+				<div class="cls"></div>	
+				
+			  
+			</div>	
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="cls"></div>
+			
+			</div>	
+      
+		</div>
+			
+	</div>
+
+	<div class="cls"></div>
+
+	
+</div>
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
