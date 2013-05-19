@@ -1,0 +1,624 @@
+body {
+  margin: 0px auto;
+    padding: 0px;
+	color: #000000;
+    font-family: Tahoma,sans-serif;
+    background-color: #FAFAFA;
+
+
+}
+
+a {
+	color: #048FC2;
+    text-decoration: none;
+	font-size: 12px;
+}
+a:hover {
+	color: #000;
+    text-decoration: underline;	
+}
+
+h1 {
+	  color: #333333;
+    font: bold 24px Arial,sans-serif;
+    height:50px;
+    padding-bottom:20px;
+    width:930px;
+  	background:url("bg3.png") repeat-x scroll 0 0 transparent;
+}
+h2 {
+	color: #858585;
+	border-bottom:2px solid #858585;
+	font: bold 14px Arial,sans-serif;
+	padding-bottom:4px;
+}
+
+.container {
+	margin: 0 auto;
+    padding: 0px;
+	  width:940px;
+	  background-color: #FFFFFF;
+    border-width: 0;
+    margin: 0 auto;
+    min-width: 970px;
+    position: relative;
+  	border:1px solid #ccc;
+   	padding:15px;
+  	margin-bottom:30px;
+
+
+}
+
+table tr {
+border-spacing: 0;
+border-collapse:collapse;
+}
+
+/* menu code */
+.menu-container {
+background-color:#048FC2;
+margin-bottom:20px;
+}
+.menu {
+list-style-type:none;
+margin:0 auto;
+padding:0px;
+background-color:#048FC2;
+font-family:Arial;
+}
+
+.menu li {
+float:left;
+padding-top:14px;
+padding-bottom:14px;
+background-color:#048FC2;
+
+}
+
+.menu li a {
+padding-right:20px;
+padding-left:20px;
+color:#fff;
+font-size:14px;
+border-right:1px solid #ddd;
+padding:10px;
+text-decoration:none;
+}
+
+.menu li a:hover {
+text-decoration:underline;
+}
+
+.menu li.active a:hover{
+text-decoration:underline;
+}
+
+.menu-right {
+list-style-type:none;
+}
+.menu-right li {
+float:right;
+padding-top:14px;
+padding-bottom:14px;
+background-color:#048FC2;
+}
+
+.menu-right li a {
+padding-right:20px;
+padding-left:20px;
+color:#fff;
+font-size:14px;
+border-left:1px solid #ddd;
+padding:10px;
+text-decoration:none;
+}
+.menu-right li a:hover { 
+	text-decoration:underline;
+}
+.menu-right li.active a{
+	text-decoration:underline;
+}
+.results-tab {
+	padding:10px;
+	width:100%;
+	border-collapse:collapse;
+	font-size:13px;
+}
+.results-tab-title {	
+	background-color:#F2F6FF;
+    border-bottom:1px solid #B7C0C7;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.results-tab td {
+padding:5px;
+}
+
+.page-subnote-content{
+	background-color:#F4F4F4;
+	border: 1px solid #E9E9E9;
+    color: #8D8A8A;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    text-align: center;
+    width: 928px;
+	font-size: 11px;
+}
+
+.results-page-buttons{	
+	background:url("bg2.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #E9E9E9;
+	margin-bottom:1px;
+    color: #8D8A8A;
+    padding: 5px 0;
+    width: 928px;
+}
+
+.page-subnote {
+font-size:13px;
+font-weight: bold !important;
+padding-top:6px;
+padding-top:6px;
+margin-bottom:8px;
+}
+
+.results-page-left-buttons{
+float:left;
+
+}
+
+.results-page-right-buttons{
+float:right;
+}
+.cls {
+	clear:both;
+}
+
+.positive {
+	background-color:#048FC2;
+	border: 1px solid #ddd;
+	font-size:10px;
+	color: #fff;
+	padding: 5px 12px 5px 12px;
+	line-height: 17px;
+	margin-left:3px;
+	margin-right:3px;
+}
+.positive a{
+color:#fff;
+}
+
+
+.sub-buttons {
+	background-color:#F4F4F4;
+	border: 1px solid #ddd;
+	font-size:10px;
+	color: #fff;
+	padding: 4px 7px 4px 7px;
+	line-height: 17px;
+	margin-left:3px;
+	margin-right:3px;
+}
+.sub-buttons a{
+color: #048FC2;
+}
+
+.sub-buttons a:hover{
+color: #000;
+}
+.page-tabs {
+border-bottom:1px solid #ddd;
+margin-bottom:8px;
+padding-top:13px;
+}
+
+.page-tabs ul{
+
+float:left;
+margin:0px;
+padding:0px;
+list-style-type:none;
+margin-bottom:6px;
+}
+.page-tabs ul li {
+background:url("bg1.png") repeat-x scroll 0 0 transparent;
+float:left;
+border:1px solid #ddd;
+border-bottom:none;
+padding: 5px 15px 5px 15px;
+margin-right:2px;
+
+}
+.page-tabs ul li a {
+font-size:11px;
+}
+
+.page-title {
+
+}
+
+/* Add Role */
+.add-role{
+	background: url("b4.png") repeat-x scroll left bottom #E8F1FF;     
+    margin-bottom: 0;
+    padding: 10px;	
+	border: 1px solid #C1C1C1;
+}
+
+.add-role h2 {
+	float:left;
+	width:930px;
+	display: block;
+	border-bottom: 0px;   
+    padding-top: 15px;
+	font: bold 14px Arial,sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 5px;   
+	line-height:16px;
+	vertical-align: baseline;	
+}
+
+.add-role fieldset {
+	clear:both;
+	width:908px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 0;
+	border:none;
+}
+.add-role div.field {
+	float:left;
+	display: block;
+    margin-bottom: 3px;    
+	font-size: 11px;
+	color: #000000;
+	margin-right: 15px;
+    padding-bottom: 10px;
+}
+.add-role div.field label{
+	float: left;
+	width: 100px;
+	display: block;
+	
+    margin-bottom: 3px;	
+}
+.add-role div.field input{	 
+	border: 1px solid #7F9DB9;
+    clear: both;
+    height: 18px;
+	padding-right: 2px;	
+	padding-left:3px;	
+	width:250px;	
+} 
+
+textarea.role-desc {
+ width: 250px;
+ resize: none;
+ height: 75px;
+}
+
+.table-note {
+font-size:12px;
+}
+.field select {
+font-family: tahoma;
+font-size: 13px;
+width:150px;
+}
+
+.field textarea {
+	width: 183px;
+	resize: none;
+	height: 75px;
+}
+
+/* hint message */
+.hint-message {
+border:1px solid #ddd;
+margin-top:20px;
+margin-bottom:20px;
+font-size:13px;
+padding-bottom:20px;
+
+}
+.hint-message .title {
+	background-color: #64B23B;
+    padding: 5px 5px 5px 10px;
+	border-width: 0 !important;
+    color: #FFFFFF;
+    font: bold 14px Arial,sans-serif;
+    margin-bottom:10px;
+    padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+    width: auto !important;
+
+}	
+
+.hint-message .msg {
+	color:#555555;
+	padding-left:10px;
+    width: auto !important;
+
+}	
+
+.hint-message a{
+font-size:12px;
+color:#64B23B;
+}
+
+/* error message */
+.error-message {
+border:1px solid #ddd;
+margin-top:20px;
+margin-bottom:20px;
+font-size:13px;
+padding-bottom:20px;
+
+}
+.error-message .title {
+	background-color: #F7803C;
+    padding: 5px 5px 5px 10px;
+	border-width: 0 !important;
+    color: #FFFFFF;
+    font: bold 14px Arial,sans-serif;
+    margin-bottom:10px;
+    padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+    width: auto !important;
+}	
+.error-message .msg {
+	color:#555555;
+	padding-left:10px;
+    width: auto !important;
+}	
+.error-message a{
+font-size:12px;
+color:#F54828;
+}	
+
+/* Add invoice styling*/
+.add-invoice{
+	background: url("b4.png") repeat-x scroll left bottom #E8F1FF;     
+    margin-bottom: 0;
+    padding: 10px;	
+	border: 1px solid #C1C1C1;
+}
+
+.add-invoice h2 {
+	float:left;
+	width:930px;
+	display: block;
+	border-bottom: 0px;   
+    padding-top: 15px;
+	font: bold 14px Arial,sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 5px;   
+	line-height:16px;
+	vertical-align: baseline;	
+}
+
+.add-invoice fieldset {
+	clear:both;
+	width:908px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 0;
+	border:none;
+}
+.add-invoice div.field {
+	float:left;
+	display: block;
+    margin-bottom: 3px;    
+	font-size: 11px;
+	color: #000000;
+	margin-right: 15px;
+    padding-bottom: 10px;
+}
+.add-invoice div.field label{
+	float: left;
+	width: 77px;
+	display: block;
+	font-weight:bold;
+    margin-bottom: 3px;	
+}
+.add-invoice div.field input{	 
+	border: 1px solid #7F9DB9;
+    clear: both;
+    height: 17px;
+	padding-right: 2px;	
+	padding-left:3px;	 
+} 
+
+.go-left{
+	float:left;
+}
+
+.go-left a {
+font:13px Arial;
+}
+table {
+	border-collapse:collapse;
+}
+.go-right {
+	float:right;
+}
+
+.cls {
+	clear:both;
+}
+
+.currency-tax-tab {
+	font-size:13px;
+	border-top:1px solid #E1E1E1;
+	padding-top:16px;
+}
+
+.currency-tax-tab select{
+	font-family:tahoma;
+	font-size:13px;
+	width:170px;
+}
+
+.invoice-line-items {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.invoice-summary{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.invoice-summary .grid-total label { 
+	display: block;
+    float: left;
+    font-size: 11px;
+    text-align: right;
+    width: 120px;
+}
+.invoice-summary .grid-total input {
+	background-color: transparent;
+    display: inline;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+	border: 0 solid black;
+    font: 11px tahoma,sans-serif;
+    text-align:right;
+}
+.invoice-summary .grid-total div { 
+    font-size: 11px;
+    padding: 5px 0;
+    width: 340px;
+}
+
+.invoice-summary  .total {
+font-weight:bold;
+border-top:1px solid #888;
+border-bottom:1px solid #888;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.invoice-summary  .total input {
+font-weight:bold;
+}
+
+.line-item td{
+border:1px solid #ddd;
+background-color:#fff;
+}
+
+/* Add Contact Styles */
+
+.add-new-form{
+	width: 908px;
+	background: url("b4.png") repeat-x scroll left bottom #E8F1FF;     
+    margin-bottom: 0;
+    padding: 10px;	
+	border: 1px solid #C1C1C1;
+	clear:both;
+	margin:0 auto;
+}
+.add-new-form h2 {
+	float:left;
+	width:908px;
+	display: block;
+	border-bottom: 0px;   
+    padding-top: 15px;
+	font: bold 14px Arial,sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 5px;   
+	line-height:16px;
+	vertical-align: baseline;
+	
+}
+
+.add-new-form fieldset {
+	clear:both;
+	width:908px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 0;
+	border:none;
+}
+.add-new-form div.field {
+	float:left;
+	display: block;
+    margin-bottom: 3px;    
+	font-size: 11px;
+	color: #000000;
+	margin-right: 15px;
+    padding-bottom: 10px;
+}
+.add-new-form div.field label{
+	float: left;
+	width: 107px;
+	display: block;
+    margin-bottom: 3px;	
+}
+.add-new-form div.field input{	 
+	border: 1px solid #7F9DB9;
+    clear: both;
+    height: 17px;
+	padding-right: 2px;
+	padding-left:3px;	 
+} 
+.wide-col-1{
+	float:left;
+	width:300px;
+}
+ .wide-col-2{
+	float:left;
+	width:300px;
+}
+.wide-col-3{
+	float:left;
+	width:300px;
+}
+div.field-wide {
+	float:left;
+	display: block;
+    margin-bottom: 3px;    
+	font-size: 11px;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+.field-wide label {
+	float: left;
+	width: 100px;
+	display: block;
+	text-align:right;
+	margin-right:10px;
+	margin-bottom: 3px;
+}
+ div.field-wide input{
+	width:183px;
+	border: 1px solid #7F9DB9;
+    clear: both;
+    height: 17px;
+	padding-right: 2px;	
+	padding-left:3px;	 
+} 
+
+div.field-wide textarea {
+	width: 183px;
+	resize: none;
+	height: 75px;
+}
+
+/* summary page styles */
+.summary{
+font: bold 14px Arial,sans-serif;
+color:#888;
+}
+.summary a{
+font: bold 18px Arial,sans-serif;
+font-size:18px;
+}
+.summary-tabs {
+margin-bottom:30px;
+}
